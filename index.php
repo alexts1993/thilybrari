@@ -75,13 +75,14 @@
           <div class="widget-content">
 			<style>
 				.xyz{
-					width:14.25%;
+					/*width:14.25%;
 					height:240px;
 					list-style-type:none;
 					display:block;
 					margin-left:20px;
 					float:left;
-					margin-bottom:15px;
+					margin-bottom:15px;*/
+					margin-left:0 important;
 				}
 				.xyz .img-div{
 					height:78%;
@@ -97,39 +98,50 @@
 					line-height:15px;
 				}
 			</style>
-			<ul style="overflow:hidden">
-				<li class="xyz">
+			<ul style="overflow:hidden" class="thumbnail">
+				<li class="span3 xyz">
 					<div class="img-div">
 						<img src="img/gallery/imgbox3.jpg" alt="">
 					</div>
 					<div class="desc">Mrs. Sherlock Holmes: The True Story of New York City's Greatest Female Detective and the 1917 Missing Girl Case That Captivated a Nation</div>
 				</li>
-				<li class="xyz">
+				<li class="span3 xyz">
 					<div class="img-div">
 						<img src="img/gallery/imgbox3.jpg" alt="">
 					</div>
 					<div class="desc">Mrs. Sherlock Holmes: The True Story of New York City's Greatest Female Detective and the 1917 Missing Girl Case That Captivated a Nation</div>
-				</li><li class="xyz">
+				</li>
+				<li class="span3 xyz">
 					<div class="img-div">
 						<img src="img/gallery/imgbox3.jpg" alt="">
 					</div>
 					<div class="desc">Mrs. Sherlock Holmes: The True Story of New York City's Greatest Female Detective and the 1917 Missing Girl Case That Captivated a Nation</div>
-				</li><li class="xyz">
+				</li>
+				<li class="span3 xyz">
 					<div class="img-div">
 						<img src="img/gallery/imgbox3.jpg" alt="">
 					</div>
 					<div class="desc">Mrs. Sherlock Holmes: The True Story of New York City's Greatest Female Detective and the 1917 Missing Girl Case That Captivated a Nation</div>
-				</li><li class="xyz">
+				</li>
+				<li class="span3 xyz">
 					<div class="img-div">
 						<img src="img/gallery/imgbox3.jpg" alt="">
 					</div>
 					<div class="desc">Mrs. Sherlock Holmes: The True Story of New York City's Greatest Female Detective and the 1917 Missing Girl Case That Captivated a Nation</div>
-				</li><li class="xyz">
+				</li>
+				<li class="span3 xyz">
 					<div class="img-div">
 						<img src="img/gallery/imgbox3.jpg" alt="">
 					</div>
 					<div class="desc">Mrs. Sherlock Holmes: The True Story of New York City's Greatest Female Detective and the 1917 Missing Girl Case That Captivated a Nation</div>
-				</li><li class="xyz">
+				</li>
+				<li class="span3 xyz">
+					<div class="img-div">
+						<img src="img/gallery/imgbox3.jpg" alt="">
+					</div>
+					<div class="desc">Mrs. Sherlock Holmes: The True Story of New York City's Greatest Female Detective and the 1917 Missing Girl Case That Captivated a Nation</div>
+				</li>
+				<li class="span3 xyz">
 					<div class="img-div">
 						<img src="img/gallery/imgbox3.jpg" alt="">
 					</div>
@@ -137,6 +149,17 @@
 				</li>
 			</ul>
 		  </div>
+		  <div class="pagination" style="text-align:center">
+			  <ul>
+				<li><a href="#">Prev</a></li>
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
+				<li><a href="#">Next</a></li>
+			  </ul>
+		 </div>
         </div>
       </div>
     </div></div>
