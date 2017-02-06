@@ -254,3 +254,17 @@ a:hover, a:focus {
     position: absolute;
     width: 220px;
 }
+
+#sidebar > ul > li > a > .label {
+    background-color: #F66;
+}
+#sidebar > ul > li > a > .label {
+    margin: 0 20px 0 0;
+    float: right;
+    padding: 3px 5px 2px;
+}
+
+#sidebar > ul li ul li a:hover, #sidebar > ul li ul li.active a {
+    color: #fff;
+    background-color: #28b779;
+}
