@@ -1,6 +1,6 @@
 body {
     overflow-x: hidden;
-    margin-top: -10px;
+    margin-top: -20px;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #666;
@@ -73,15 +73,16 @@ a:hover, a:focus {
 
 #user-nav > ul > li > a > .label {
     vertical-align: middle;
-    padding: 1px 4px 1px;
+    padding: 2px 4px 2px;
     margin: -2px 4px 0;
     display: inline-block;
 }
 
 #user-nav > ul > li > a {
-    padding: 9px 10px;
+    padding: 11px 10px;
     display: block;
     font-size: 11px;
+	color:#939da8;
 }
 
 .label-important, .badge-important {
@@ -267,4 +268,10 @@ a:hover, a:focus {
 #sidebar > ul li ul li a:hover, #sidebar > ul li ul li.active a {
     color: #fff;
     background-color: #28b779;
+}
+
+#user-nav > ul > li > a:hover,#user-nav > ul > li > a:focus {
+    text-decoration: none;
+    background-color: #000 !important;
+	color:#fff !important;
 }
