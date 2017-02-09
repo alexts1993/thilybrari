@@ -135,7 +135,7 @@ a:hover, a:focus {
     display: block;
     float: left;
     position: relative;
-    width: 220px;
+    width: 100%;
     z-index: 16;
 }
 
