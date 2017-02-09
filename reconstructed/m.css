@@ -1,0 +1,259 @@
+body {
+    overflow-x: hidden;
+    margin-top: -20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #666;
+    background: #2E363F;
+}
+
+
+
+.navbar-fixed-top{
+    position: relative;
+    z-index: 1030;
+	margin-top:21px;
+	margin-bottom:0px;
+}
+
+.navbar-status {
+	margin-left:-15px;
+    margin-right:-15px;
+	/* border-color: #101010; */
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    width: 100%;
+    background-color: #222222;  
+}
+
+a:hover, a:focus {
+    text-decoration: none !important;
+}
+
+.navbar-status #breadcrumb a{
+	color: #939da8;
+}
+
+.navbar-form {
+	margin-top:1px;
+	margin-bottom:2px;
+}
+
+
+
+.dropdown-menu {
+	font-size:12px;
+}
+
+.dropdown-menu .divider{
+	margin-top:3px;
+	margin-bottom:3px;
+	background-color:#424446 !important;
+}
+
+.navbar-collapse{
+}
+
+.sidebar, .main{
+	display:none;
+}
+
+
+@media (min-width: 768px){
+	
+.sidebar, .main{
+	display:block;
+}	
+	
+.navbar-inverse .navbar-form {
+    float:right;
+	margin-bottom:2px;
+	margin-top:2px;
+}
+	
+.navbar-brand{
+	background: url(../img/logo.png) no-repeat scroll 0 0 transparent;
+	height: 31px;
+    left: 20px;
+    line-height: 600px;
+    overflow: hidden;
+    position: relative;
+    top: 26px;
+    width: 191px;
+}
+
+.navbar #navbar >ul >li{
+	/* float: left; */
+    list-style-type: none;
+    margin: 0;
+    /* position: relative; */
+    padding: 0;
+    border-left: 1px solid #2e363f;
+    border-right: 1px solid #000;
+}
+
+
+.matrix-navbar{
+	height:76px;
+	
+}
+
+.navbar-inverse{
+	background-color:#1f262d;
+}
+
+.matrix-navbar-logo{
+	width: 220px;
+    height: 76px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+	line-height:18px;
+}
+
+
+.navbar-status {
+	margin-left:0px;
+    margin-right:0px;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    top: 39px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.navbar-collapse{
+	margin-top:0px;
+}
+
+
+/*sidebar*/
+.nav-sidebar {
+    display: block;
+    float: left;
+    position: relative;
+    width: 220px;
+    z-index: 16;
+}
+
+.nav-sidebar > ul {
+    list-style: none;
+    margin: 0px 0 0;
+    padding: 0;
+    position: absolute;
+    width: 220px;
+}
+
+.nav-sidebar  > li {
+    border-top: 1px solid #37414b !important;
+    border-bottom: 1px solid #1f262d;
+}
+
+.nav-sidebar  > li {
+    display: block;
+    position: relative;
+}
+
+.nav-sidebar .submenu ul{
+    display: none;
+}
+
+.nav-sidebar  > li > a {
+    padding: 10px 0 10px 15px;
+    display: block;
+    color: #939da8;
+}
+
+.nav-sidebar  > li > a:hover {
+    background-color: #27a9e3;
+    color: #fff;
+}
+
+.nav-sidebar .content {
+    padding: 10px;
+    position: relative;
+    color: #939DA8;
+}
+
+.nav-sidebar .progress-mini {
+    height: 6px;
+}
+.nav-sidebar .progress {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    width: 70%;
+}
+
+.nav-sidebar .percent {
+    font-weight: 700;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+
+.nav-sidebar  > li > a > i {
+    margin-right: 10px;
+}
+
+.nav-sidebar > li.active {
+    background-color: #27a9e3;
+    border-bottom: 1px solid #27a9e3;
+    border-top: 1px solid #27a9e3;
+}
+
+.nav-sidebar > li.active a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-sidebar > li.active > a {
+    background: url(../img/menu-active.png) no-repeat scroll right center transparent !important;
+    text-decoration: none;
+}
+
+.sidebar{
+	padding-left:0;
+	padding-right:0;
+}
+/*sidebar*/
+
+.col-sm-9 {
+    padding-left:0px;
+}
+
+.nav-sidebar li ul {
+    background-color: #1e242b;
+	padding-left:0px;
+}
+
+.nav-sidebar li ul li a {
+    padding: 10px 0 10px 25px;
+    display: block;
+    color: #939da8;
+}
+
+.nav-sidebar li ul li{
+	list-style-type:none;
+}
+
+.nav-sidebar li ul li a:hover, .nav-sidebar li ul li.active a {
+    color: #fff;
+    background-color: #28b779;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #2E363F !important;
+    border-color: #337ab7;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #2E363F !important;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #27a9e3 !important;
+}
+}
