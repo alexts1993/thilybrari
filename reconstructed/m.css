@@ -253,6 +253,6 @@ a:hover, a:focus {
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-    background-color: #27a9e3 !important;
+    background-color:transparent !important;
 }
 }
