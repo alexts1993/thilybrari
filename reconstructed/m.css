@@ -64,6 +64,17 @@ a:hover, a:focus {
 	
 .sidebar, .main{
 	display:block;
+	
+}
+.main{
+	background-color:#eeeeee;
+	    padding-left: 20px !important;
+    padding-right: 20px;
+}
+
+.nav-sidebar > li:hover {
+    background-color: #27a9e3 !important;
+    color: #fff;
 }	
 	
 .navbar-inverse .navbar-form {
@@ -120,7 +131,7 @@ a:hover, a:focus {
     margin-right:0px;
     position: absolute;
     background-color: white;
-    top: 39px;
+    top: 40px;
     height: 36px;
     line-height: 36px;
 }
@@ -255,4 +266,55 @@ a:hover, a:focus {
 .nav > li > a:hover, .nav > li > a:focus {
     background-color:transparent !important;
 }
+}
+
+
+.widget-box {
+    background: none repeat scroll 0 0 #F9F9F9;
+    border-left: 1px solid #CDCDCD;
+    border-top: 1px solid #CDCDCD;
+    border-right: 1px solid #CDCDCD;
+    clear: both;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.widget-title, .modal-header, .table th, div.dataTables_wrapper .ui-widget-header {
+    background: #efefef;
+    border-bottom: 1px solid #CDCDCD;
+    height: 36px;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+.widget-content {
+    padding: 15px;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.widget-title span.icon {
+    padding: 9px 10px 7px 11px;
+    float: left;
+    border-right: 1px solid #dadada;
+}
+
+.widget-title h5 {
+    color: #666;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px;
+    line-height: 12px;
+    margin: 0;
+}
+
+.dataTables_length {
+    color: #878787;
+    margin: 7px 5px 0;
+    position: relative;
+    left: 5px;
+    width: 50%;
+    top: -2px;
 }
