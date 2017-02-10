@@ -72,11 +72,7 @@ a:hover, a:focus {
     padding-right: 20px;
 }
 
-.nav-sidebar > li:hover {
-    background-color: #27a9e3 !important;
-    color: #fff;
-}	
-	
+
 .navbar-inverse .navbar-form {
     float:right;
 	margin-bottom:2px;
@@ -250,20 +246,11 @@ a:hover, a:focus {
 	list-style-type:none;
 }
 
-.nav-sidebar li ul li a:hover, .nav-sidebar li ul li.active a {
-    color: #fff;
-    background-color: #28b779;
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color:transparent !important;
 }
 
-.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    background-color: #2E363F !important;
-    border-color: #337ab7;
-}
-.nav > li > a:hover, .nav > li > a:focus {
-    background-color: #2E363F !important;
-}
-
-.nav > li > a:hover, .nav > li > a:focus {
+.nav .open >a, .nav .open > a:hover, .nav .open > a:focus {
     background-color:transparent !important;
 }
 }
